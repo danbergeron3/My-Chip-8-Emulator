@@ -14,14 +14,14 @@ int main(int argc, char** argv) {
 
 	// for (;;) {
 		// emulate one cycle 
-		chip8.emulateCycle();
+	chip8.emulateCycle();
 
-		if (chip8.drawFlag) {
-			//drawGraphics();
-		}
+	if (chip8.drawFlag) {
+		//drawGraphics();
+	}
 
-		// store key press state (press and release)
-		chip8.setKeys();
+	// store key press state (press and release)
+	chip8.setKeys();
 	// }
 
 	return 0;
